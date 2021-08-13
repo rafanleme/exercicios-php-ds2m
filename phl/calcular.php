@@ -1,5 +1,5 @@
 <?php
-
+//verificiando se os campos vieram na requisição
 if(isset($_POST["origem"]) && isset($_POST["destino"]) 
     && isset($_POST["distancia"]) && isset($_POST["pedagios"])){
     
