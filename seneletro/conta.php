@@ -1,5 +1,6 @@
 <?php
 
+//aqui estou validando os campos
 if (
     isset($_POST["nome"]) && isset($_POST["rua"]) &&
     isset($_POST["numero"]) && isset($_POST["consumo"])
