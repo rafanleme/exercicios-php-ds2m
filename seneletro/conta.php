@@ -21,7 +21,7 @@ if (
         $agradecimento = "<h2 class='baixo-consumo'>Obrigado por economizar</h2>";
     }
 } else {
-    //este é um comentário que dará conflito
+    //neste caso, o usuário não enviou os dados na requisição
     echo "Você não enviou os dados corretamente";
     die;
 }
